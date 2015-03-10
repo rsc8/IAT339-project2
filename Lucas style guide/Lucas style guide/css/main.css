@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'paintedregular';
+    src: url('Painted-webfont.eot');
+    src: url('Painted-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Painted-webfont.woff2') format('woff2'),
+         url('Painted-webfont.woff') format('woff'),
+         url('Painted-webfont.ttf') format('truetype'),
+         url('Painted-webfont.svg#paintedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'minion_displaydisplay_regular';
+    src: url('Minion Display Display Regular-webfont.eot');
+    src: url('Minion Display Display Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Minion Display Display Regular-webfont.woff2') format('woff2'),
+         url('Minion Display Display Regular-webfont.woff') format('woff'),
+         url('Minion Display Display Regular-webfont.ttf') format('truetype'),
+         url('Minion Display Display Regular-webfont.svg#minion_displaydisplay_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+  font-family: "Myriad Pro", sans-serif;
+  padding: 2rem;
+}
+
+h1 {
+    font-family: 'paintedregular';
+   font-size: 1.5rem;
+  font-family: 'paintedregular';
+  color: #D3B767;
+  letter-spacing: 1em;
+  text-align: left;
+  line-height: 2em;
+}
+h1.title {
+    font-family: 'paintedregular';
+   font-size: 2.0rem;
+  font-family: 'paintedregular';
+  color: #D3B767;
+  letter-spacing: 1em;
+  text-align: middle;
+  line-height: 2em;
+}
+  }
+strong {
+    font-weight: bold;
+  }
+
+img {
+
+  height: auto; 
+  max-width: 100%;
+  border: 1px solid #888888; 
+}
+
+
+figcaption {
+  font-family: "Myriad Pro";
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  color: black;
+}
+
+figure {
+  position: relative;
+
+}
+
+
+section p.font{
+    font-size: 0.75rem;
+  line-height: 2em;
+  text-align: left;
+  font-family: 'Courier New';
+  letter-spacing: 0.09em;
+  color: #000;
+}
+
+section {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+section h3 {
+  margin-bottom: 0;
+}
+section p {
+  margin-top: 0;
+}
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+}
+
+a.button {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #333;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+a.button:hover, a.button:focus {
+  background-color: blue;
+}
+
+#rectangleblack {
+    width:200px;
+    height:30px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    background:blue;
+}
+
+#rectanglered {
+
+    width:200px;
+    height:30px;
+    margin-bottom: 10px;
+    background:black;
+}
+#rectanglebeige {
+
+    width:200px;
+    height:30px;
+    background:#D3B767;
+}
+
+#rectangleblue {
+    width:200px;
+    height:30px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    background:#0E1F42;
+}
+
+#rectanglepurple{
+
+    width:200px;
+    height:30px;
+    margin-bottom: 10px;
+    background:#7F194D;
+}
+#rectanglelightblue {
+
+    width:200px;
+    height:30px;
+    margin-bottom: 10px;
+    background:#3EA996;
+}
+#rectanglekhaki {
+
+    width:200px;
+    height:30px;
+    background:#F7D390;
+}
+
+form {
+
+  display: inline-block;
+  border:1px solid blue;
+  background-color: white;
+  padding: 1em;
+}
+
+.input-wrapper {
+  font-family: "Myriad Pro", sans-serif;
+  margin: 0 0 1em 0; /* Here we are defining the margins for 'top right bottom left' */
+}
+
+label {
+   
+  /*
+    Setting the display to block forces the input fields to move down to the
+    next line
+  */
+  display: block;
+}
+
+
+/*
+  Here we are changing our box-model from the default 'content-box' to 
+  border-box. By using the asterisk (*), and the pseudo-selectors of ::after
+  and ::before, we ensure that everything will use the specified box-model
+  
+  content-box model = width of box is based on content
+
+  border-box model = width of box is calculated based on content+padding+border
+*/
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+
+
+ul li a { 
+
+
+  font-family: 'minion_displaydisplay_regular';
+  font-size: 0.65em;
+  color: #FFFFFF;
+  text-align: left;
+  letter-spacing: 0.2em;
+
+
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0em;
+margin-left: 2em;
+    text-align: left;
+
+
+}
+
+li a, li a:visited {
+  display: inline-block;
+  background-color: black;
+  color: #FFF;
+  padding: 1em 1.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+
+
+li a:hover, li a:active, li a:focus {
+  background-color: blue;
+  color: white;
+}
+li{
+  
+  margin-bottom: 0.5em;
+  color: #FFFFFF;
+  margin-left: 4em;
+}

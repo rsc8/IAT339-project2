@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Style Guide </title>
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class = "title"> LUCAS DAVID STYLE GUIDE</h1>
+    <br>
+    <nav>
+      Go to:
+      <a href="#buttons">Buttons</a>
+      <a href="#colors">Colors</a>
+      <a href="#typography">Typography</a>
+      <a href="#image">Brand Component</a>
+      <a href="#contact">Contact form</a>
+    </nav>
+    <!-- Try to ensure that each element has its own portion of the page -->
+      <section id="colors">
+      <h2>Colors</h2>  
+      <h3>Primary color palette</h3>
+      <div id="rectangleblack"></div>
+      <div id="rectanglered"></div>
+      <div id="rectanglebeige"></div>
+
+    </section>
+
+    <section id="buttons">
+      <h2>Default Button Style</h2>
+
+
+
+      <ul class="box-item-nav">
+        
+       <li><a href="flexbox.html" title="Works">W()RKS</a></li>
+       <li><a href="artist.html" title="Artist">ARTIST</a></li>
+       <li><a href="contact.html" title="Contact">CONTACT</a></li>
+       <li><a href="cart.html" title="Cart">CART</a></li>
+      </ul> 
+
+
+    </section>
+
+    <section id="typography">
+      <h2>Typography</h2>
+      <h1>Header 1</h1>
+      <strong>Header 2</strong>
+      <br>
+            <p class ="font" > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et urna mauris. Suspendisse fermentum ultricies felis, a hendrerit sem. Nam ut tellus diam. Pellentesque consectetur ac magna eget gravida. Cras suscipit, nunc id sodales accumsan, libero ante tincidunt est, venenatis dapibus lorem tellus in velit. Fusce volutpat lectus sapien, in luctus velit rhoncus a.</p>
+      
+
+     </section>
+
+      <section id="image">
+      <h2>Brand Component</h2>
+
+      <figure>
+
+        <img src="img/miaw.jpg" height="650" width="500" alt="Mia">
+        <img src="img/kate.jpg" height="520" width="800" alt="Kate">
+        <figcaption>Style Reference Image</figcaption>
+
+      </figure>
+
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <form method="post" action="#">
+        
+        <!-- 
+          In this case we add in the div to help bundle the
+          label and input for styling purposes
+        -->
+        <div class="input-wrapper">
+          <label for="form-name">Name:</label>
+          <input type="text" id="form-name" placeholder="Marina K">
+        </div>
+
+
+        <div class="input-wrapper">
+          <label for="form-subject">Email:</label>
+          <input type="text" id="form-subject" placeholder="Your email">
+        </div>
+
+        <div class="input-wrapper">
+          <label for="form-subject">Subject:</label>
+          <input type="text" id="form-subject" placeholder="A title for your message">
+        </div>
+
+
+
+        <div class="input-wrapper">
+          <label for="form-comment">Comment:</label>
+          <textarea id="form-comment" placeholder="Place your message here"></textarea>
+        </div>
+
+        <input type="submit" value="Send Message">
+
+      </form>
+
+    </section>
+  </body>
+</html>
