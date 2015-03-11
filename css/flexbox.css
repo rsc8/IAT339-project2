@@ -33,7 +33,7 @@
 	display: flex; 
 
 
-
+	border: 1px solid blue;
 
 	/* 
 		The 'flex-wrap' property lets us automagically wrap 
@@ -105,9 +105,11 @@
 	-ms-justify-content: center;
 	justify-content: center;
 
-		-webkit-align-self: center;
-	-ms-align-self: center;
-	align-self: center;
+
+
+		-webkit-align-self: space-between;
+	-ms-align-self: space-between;
+	align-self: space-between;
 
 	/*
 		'flex-basis' is the initial size of the flex item (sort of 

@@ -99,10 +99,10 @@ h1 {
 
 h2 {
 
-	color: #A08615;
+	color: #D3B767;
 	font-size: 1.5rem; 
 	font-family: 'paintedregular';
-	letter-spacing: 0.2em;
+	letter-spacing: 0.5em;
 	text-align: center;
 	line-height: 2em;
 
@@ -165,7 +165,7 @@ h5{
 	color: #FFFFFF;
 	text-align: center;
 	margin-left: 0em;
-		font-size: 0.65em;
+	font-size: 0.65em;
 
 	letter-spacing: 0.2em;
 
@@ -198,7 +198,7 @@ h4{
 ul {
     list-style-type: none;
     padding: 0em;
-margin-left: 1em;
+margin-left: 0em;
     text-align: left;
 
 
@@ -324,6 +324,12 @@ a:active, a:hover {
 
 }
 
+.cart img{
+	height: auto; 
+	width: auto;
+	max-width: 40%;
+}
+
 
 
 
@@ -358,7 +364,7 @@ a:active, a:hover {
 
 #contact-area2 {
 	width: 75%;
-	margin-top: 5em;
+	margin-top: 3em;
 	display: inline-block;
 }
 
@@ -367,7 +373,7 @@ a:active, a:hover {
 
 	font-family: 'Courier New';
 	font-size: 1em;
-	margin: 0.3em;
+	margin: 0.2em;
 	border: 2px solid #ccc;
 
 }
@@ -402,7 +408,7 @@ label {
 	letter-spacing: 0.1em;
 	font-size: 0.75em;
 	font-family: 'Courier New';
-	text-align: left;
+
 
 
 }
