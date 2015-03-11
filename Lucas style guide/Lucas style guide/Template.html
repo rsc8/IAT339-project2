@@ -7,18 +7,10 @@
   </head>
   <body>
     <h1 class = "title"> LUCAS DAVID STYLE GUIDE</h1>
-    <br>
-    <nav>
-      Go to:
-      <a href="#buttons">Buttons</a>
-      <a href="#colors">Colors</a>
-      <a href="#typography">Typography</a>
-      <a href="#image">Brand Component</a>
-      <a href="#contact">Contact form</a>
-    </nav>
+  
     <!-- Try to ensure that each element has its own portion of the page -->
       <section id="colors">
-      <h2>Colors</h2>  
+      <h2>COLORS</h2>  
       <h3>Primary color palette</h3>
       <div id="rectangleblack"></div>
       <div id="rectanglered"></div>
@@ -33,10 +25,8 @@
 
       <ul class="box-item-nav">
         
-       <li><a href="flexbox.html" title="Works">W()RKS</a></li>
-       <li><a href="artist.html" title="Artist">ARTIST</a></li>
-       <li><a href="contact.html" title="Contact">CONTACT</a></li>
-       <li><a href="cart.html" title="Cart">CART</a></li>
+       <li><a href="flexbox.html" title="Works">BUTTON STYLE</a></li>
+
       </ul> 
 
 
@@ -44,10 +34,12 @@
 
     <section id="typography">
       <h2>Typography</h2>
-      <h1>Header 1</h1>
-      <strong>Header 2</strong>
-      <br>
-            <p class ="font" > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et urna mauris. Suspendisse fermentum ultricies felis, a hendrerit sem. Nam ut tellus diam. Pellentesque consectetur ac magna eget gravida. Cras suscipit, nunc id sodales accumsan, libero ante tincidunt est, venenatis dapibus lorem tellus in velit. Fusce volutpat lectus sapien, in luctus velit rhoncus a.</p>
+      <h1>Header 1 - Painted</h1>
+      <h4>MENU FONT - Minion Regular</h4>
+      <h3>HEADER 2 - Courier New</h3>
+
+
+     <p class ="font" > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et urna mauris. Suspendisse fermentum ultricies felis, a hendrerit sem. Nam ut tellus diam. Pellentesque consectetur ac magna eget gravida. Cras suscipit, nunc id sodales accumsan, libero ante tincidunt est, venenatis dapibus lorem tellus in velit. Fusce volutpat lectus sapien, in luctus velit rhoncus a.</p>
       
 
      </section>
@@ -57,7 +49,7 @@
 
       <figure>
 
-        <img src="img/miaw.jpg" height="650" width="500" alt="Mia">
+        <img src="img/ld.jpg" height="100" width="169" alt="lucas">
         <img src="img/kate.jpg" height="520" width="800" alt="Kate">
         <figcaption>Style Reference Image</figcaption>
 
@@ -68,39 +60,28 @@
     <section id="contact">
       <h2>Contact</h2>
 
-      <form method="post" action="#">
+                <div id="contact-area">
+
+        <form method="post" action="contactengine.php">
+        <label for="Name">Your Name:</label>
+        <input type="text" name="Name" id="Name" />
+  
+        <label for="Email">Your Email:</label>
+        <input type="text" name="Email" id="Email" />
         
-        <!-- 
-          In this case we add in the div to help bundle the
-          label and input for styling purposes
-        -->
-        <div class="input-wrapper">
-          <label for="form-name">Name:</label>
-          <input type="text" id="form-name" placeholder="Marina K">
-        </div>
+        <label for="Message">Message:</label>
+        <textarea name="Message" rows="20" cols="20" id="Message"></textarea>
 
-
-        <div class="input-wrapper">
-          <label for="form-subject">Email:</label>
-          <input type="text" id="form-subject" placeholder="Your email">
-        </div>
-
-        <div class="input-wrapper">
-          <label for="form-subject">Subject:</label>
-          <input type="text" id="form-subject" placeholder="A title for your message">
-        </div>
-
-
-
-        <div class="input-wrapper">
-          <label for="form-comment">Comment:</label>
-          <textarea id="form-comment" placeholder="Place your message here"></textarea>
-        </div>
-
-        <input type="submit" value="Send Message">
+        <ul>
+          <li><a href="cart.htm" title="Cart">SEND</a></li>
+        <ul>
 
       </form>
 
+      
+      <div style="clear: both;"></div>
+      
+       </div>
     </section>
   </body>
 </html>

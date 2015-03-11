@@ -24,29 +24,46 @@
 
 
 body {
-  font-family: "Myriad Pro", sans-serif;
-  padding: 2rem;
+  font-family: "Courier New";
+  padding: 1rem;
+  letter-spacing: 0.2em;
+
 }
 
 h1 {
     font-family: 'paintedregular';
    font-size: 1.5rem;
-  font-family: 'paintedregular';
   color: #D3B767;
-  letter-spacing: 1em;
+  letter-spacing: 0.5em;
   text-align: left;
   line-height: 2em;
 }
-h1.title {
-    font-family: 'paintedregular';
-   font-size: 2.0rem;
-  font-family: 'paintedregular';
-  color: #D3B767;
-  letter-spacing: 1em;
-  text-align: middle;
+
+h2 {
+    font-family: 'Courier New';
+   font-size: 1rem;
+  color: #000;
+  letter-spacing: 0.3em;
+  text-align: left;
   line-height: 2em;
+  text-transform: uppercase;
 }
-  }
+h3 {
+  font-size: 0.75rem;
+  line-height: 2em; 
+  text-align: left;
+  font-family: 'Courier New';
+  letter-spacing: 0.3em;
+  color: #000;
+
+}
+h4 {
+  font-family: 'minion_displaydisplay_regular';
+  font-size: 0.7em;
+  color: #000;
+  text-align: left;
+  letter-spacing: 0.5em;
+}
 strong {
     font-weight: bold;
   }
@@ -60,11 +77,12 @@ img {
 
 
 figcaption {
-  font-family: "Myriad Pro";
-  position: absolute;
-  bottom: 1em;
-  left: 1em;
-  color: black;
+    font-family: 'Courier New';
+   font-size: 0.7rem;
+  color: #000;
+  letter-spacing: 0.2em;
+  text-align: left;
+  line-height: 2em;
 }
 
 figure {
@@ -218,7 +236,7 @@ ul li a {
 ul {
     list-style-type: none;
     padding: 0em;
-margin-left: 2em;
+margin-left: 0em;
     text-align: left;
 
 
@@ -244,5 +262,41 @@ li{
   
   margin-bottom: 0.5em;
   color: #FFFFFF;
-  margin-left: 4em;
+
+}
+
+
+#contact-area {
+  width:100%;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+#contact-area input, #contact-area textarea {
+  padding: 0.3em;
+
+  font-family: 'Courier New';
+  font-size: 1em;
+  margin: 0em;
+  border: 2px solid #ccc;
+
+}
+
+#contact-area textarea {
+  height:7em;
+  width: 13em;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+  border: 2px solid #900;
+}
+
+label {
+  display: block;
+  letter-spacing: 0.1em;
+  font-size: 0.75em;
+  font-family: 'Courier New';
+
+
+
 }

@@ -33,8 +33,6 @@
 	display: flex; 
 
 
-	border: 1px solid blue;
-
 	/* 
 		The 'flex-wrap' property lets us automagically wrap 
 		child elements that are too-wide for their current row
@@ -79,12 +77,14 @@
 
 
 .box-item-article {
-	-webkit-flex:2;
-	-ms-flex:2;
-	flex:2;
+	-webkit-flex:1;
+	-ms-flex:1;
+	flex:1;
 		-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
+
+
 
 	/*
 		'flex-basis' is the initial size of the flex item (sort of 
